@@ -2,15 +2,15 @@ import { Link, NavLink } from 'react-router-dom'
 import styles from './Header.module.css'
 
 const setActive = ({isActive}) => ({
-    backgroundColor: isActive ? 'rgb(255, 255, 255)' : '#000',
-    color: isActive ? '#000' : '#ffde00'
+    backgroundColor: isActive ? '#ffe94d' : '#000',
+    color: isActive ? '#000' : '#ffe32e'
 })
 
 const Header = () => {
     return (
         <div className={styles.header_container}>
             <div className={styles.left}>
-                <div className={styles.logo}></div>
+                <NavLink to='/'><div className={styles.logo}></div></NavLink>
                 <div>
                     <h1 className={styles.title}>ЭЛЬБРУС</h1>
                     <h2 className={styles.subtitle}>Охранная организация</h2>

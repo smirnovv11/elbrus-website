@@ -1,10 +1,10 @@
 .header_container {
     background-color: rgb(15, 15, 15);
-    color: #ffde00;
+    color: #ffe32e;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 20px 10px 13px;
+    padding: 10px 20px 10px 83px;
 }
 
 .logo {
@@ -32,17 +32,20 @@
 .head_contacts {
     display: flex;
     flex-direction: column;
+    margin-right: 4rem;
 }
 .head_contacts p {
+    font-size: 15pt;
     color: #FFF;
     margin: 0px 35px;
     margin-bottom: 4px;
+
 }
 .head_contacts hr {
-    width: 70%;
+    width: 74%;
     border: none;
     height: 1px;
-    background-color: #ffde00;
+    background-color: #ffe32e;
     display: flex;
     align-self: center;
     margin: 3px 0px 5px 1px;
@@ -50,15 +53,42 @@
 
 .head_controls {
     display: flex;
-    border: 1px solid #ffde00;
+    border: 2px solid #ffe32e;
 }
 .head_controls a {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: 10px 20px;
+    padding: 12px 30px;
     font-weight: 600;
-    font-size: 13pt;
+    font-size: 15pt;
     background-color: #000000;
     text-decoration: none;
+    border: 2px solid rgba(42, 42, 42, 0.353);
     transition: 0.2s all ease-in-out;
+}
+.head_controls a:hover {
+    border: 2px solid rgba(42, 42, 42, 0.688);
+}
+
+@media (width < 1300px) {
+    .header_container {
+        padding: 10px 20px 10px 13px;
+    }
+    .head_controls {
+        flex-direction: column;
+        margin: 15px 10px;
+    }
+    .head_contacts {
+        margin-right: 5px;
+    }
+    .head_contacts p {
+        font-size: 12pt;
+    }
+    .head_contacts hr {
+        width: 70%;
+    }
+    .head_controls a {
+        font-size: 13pt;
+        padding: 10px 20px;
+    }
 }
   
