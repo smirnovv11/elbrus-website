@@ -1,0 +1,64 @@
+.header_container {
+    background-color: rgb(15, 15, 15);
+    color: #ffde00;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px 10px 13px;
+}
+
+.logo {
+    background-image: url('images/logo-head.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 120px;
+    height: 120px;
+    margin-right: 13px;
+  }
+
+.title {
+    font-size: 37pt;
+}
+.subtitle {
+    font-size: 15pt;
+}
+
+.left, .right {
+    display: flex;
+    align-items: center;
+}
+
+.head_contacts {
+    display: flex;
+    flex-direction: column;
+}
+.head_contacts p {
+    color: #FFF;
+    margin: 0px 35px;
+    margin-bottom: 4px;
+}
+.head_contacts hr {
+    width: 70%;
+    border: none;
+    height: 1px;
+    background-color: #ffde00;
+    display: flex;
+    align-self: center;
+    margin: 3px 0px 5px 1px;
+}
+
+.head_controls {
+    display: flex;
+    border: 1px solid #ffde00;
+}
+.head_controls a {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 13pt;
+    background-color: #000000;
+    text-decoration: none;
+    transition: 0.2s all ease-in-out;
+}
+  
