@@ -71,7 +71,7 @@
     }
 }
 
-@media (width < 650px) {
+@media (width < 700px) {
     .right {
         flex-direction: column;
     }

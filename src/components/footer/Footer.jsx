@@ -9,18 +9,20 @@ const Footer = () => {
             <div className={styles.top_container}>
                 <div className={styles.left}>
                     <div className={styles.logo}></div>
-                    <div>
-                        <h1>Эльбрус</h1>
-                        <p>Охранная Организация</p>
+                    <div className={styles.title_container}>
+                        <h1 className={styles.title}>ЭЛЬБРУС</h1>
+                        <p className={styles.subtitle}>Охранная Организация</p>
                     </div>
                 </div>
                 <div className={styles.right}>
-                    <div className={styles.socials}>
-                        <a href='https://www.viber.com/ru/' target='_blank'><img src='/images/viber.png'/></a>
-                        <a href='https://www.whatsapp.com' target='_blank'><img src='/images/whatsapp.png'/></a>
-                        <a href='https://www.telegram.org' target='_blank'><img src='/images/telegram.png'/></a>
+                    <div className={styles.soc_info}>
+                        <div className={styles.socials}>
+                            <a href='https://www.viber.com/ru/' target='_blank'><img src='/images/viber.png'/></a>
+                            <a href='https://www.whatsapp.com' target='_blank'><img src='/images/whatsapp.png'/></a>
+                            <a href='https://www.telegram.org' target='_blank'><img src='/images/telegram.png'/></a>
+                        </div>
+                        <Info isDetailed={true} isColored={false}/>
                     </div>
-                    <Info isDetailed={true} isColored={false}/>
                     <Menu isColored={false}/>
                 </div>
             </div>

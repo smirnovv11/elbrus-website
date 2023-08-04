@@ -40,15 +40,16 @@ a:link {
 
 @media (width < 800px) {
     .head_contacts p {
-        font-size: 10pt;
+        font-size: 12pt;
     }
 }
 
-@media (width < 650px) {
+@media (width < 700px) {
     .head_contacts p {
-        font-size: 10pt;
+        font-size: 12pt;
     }
     .head_contacts {
+        margin: 5px 0px;
         align-items: center;
     }
 }

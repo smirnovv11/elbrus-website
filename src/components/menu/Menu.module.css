@@ -24,7 +24,7 @@
 }
 .head_controls_footer a {
     font-size: 14pt;
-    padding: 10px 25px
+    padding: 10px 35px
 }
 .head_controls_footer a:hover {
     border: 2px solid rgba(54, 54, 54, 0.688);
@@ -46,15 +46,15 @@
         flex-direction: row;
     }
     .head_controls a {
-        font-size: 12pt;
+        font-size: 14pt;
     }
 }
 
-@media (width < 650px) {
+@media (width < 700px) {
     .head_controls {
         flex-direction: row;
     }
     .head_controls a {
-        font-size: 12pt;
+        font-size: 14pt;
     }
 }
