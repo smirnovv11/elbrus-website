@@ -1,12 +1,10 @@
 import { NavLink } from 'react-router-dom'
 import styles from './Header.module.css'
-
-const setActive = ({isActive}) => ({
-    backgroundColor: isActive ? '#ffe94d' : '#000',
-    color: isActive ? '#000' : '#ffe32e'
-})
+import Menu from '../menu/Menu'
+import Info from '../info/Info'
 
 const Header = () => {
+
     return (
         <div className={styles.header_container}>
             <div className={styles.left}>
@@ -17,17 +15,8 @@ const Header = () => {
                 </div>
             </div>
             <div className={styles.right}>
-                <div className={styles.head_contacts}>
-                    <p>МТС: +7 911 ХХХ-ХХ-ХХ</p>
-                    <p>Tele2: +7 911 ХХХ-ХХ-ХХ</p>
-                    <hr/>
-                    <p>Адрес: ул. Пушкина</p>
-                </div>
-                <div className={styles.head_controls}>
-                    <NavLink to='/' style={setActive}>Главная</NavLink>
-                    <NavLink to='/services' style={setActive}>Наши услуги</NavLink>
-                    <NavLink to='/about' style={setActive}>О компании</NavLink>
-                </div>
+                <Info isDetailed={false} isColored={true}/>
+                <Menu isColored={true}/>
             </div>
         </div>
     )

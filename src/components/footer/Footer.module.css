@@ -18,6 +18,12 @@
 }
 .left {
     align-items: center;
+    margin-left: 2.5rem;
+    gap: 13px;
+}
+.right {
+    margin-right: 2.5rem;
+    align-items: center;
 }
 
 .logo {
@@ -27,8 +33,13 @@
     background-position: center;
     width: 120px;
     height: 120px;
-    margin-right: 13px;
-    margin-left: 3.5rem;
+}
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 4px;
 }
 
 .bottom_p {
@@ -44,4 +55,12 @@ hr {
     display: flex;
     align-self: center;
     margin-top: 20px;
+}
+
+.footer_text {
+    text-align: center;
+    margin-top: 6px;
+    width: 80%;
+    display: flex;
+    align-self: center;
 }
