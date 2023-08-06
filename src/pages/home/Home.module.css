@@ -1,0 +1,14 @@
+.container {
+    padding: 20px 30px;
+}
+
+.main_section {
+    display: flex;
+}
+
+.right {
+    background-color: #ffe32e;
+}
+.right h2 {
+    transform: rotate();
+}

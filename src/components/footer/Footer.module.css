@@ -121,6 +121,7 @@ hr {
     }
     .left {
         align-self: center;
+        margin-left: 0px;
     }
     .right {
         flex-direction: column-reverse;

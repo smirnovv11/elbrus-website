@@ -46,7 +46,7 @@
         flex-direction: row;
     }
     .head_controls a {
-        font-size: 14pt;
+        font-size: 12pt;
     }
 }
 
@@ -55,6 +55,7 @@
         flex-direction: row;
     }
     .head_controls a {
-        font-size: 14pt;
+        font-size: 12pt;
+        padding: 10px 15px;
     }
 }
