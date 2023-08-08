@@ -1,7 +1,7 @@
 import { Outlet, useLocation } from "react-router-dom"
 import Header from "../header/Header"
 import Footer from "../footer/Footer"
-import { useEffect, useState } from "react";
+import { Suspense, useEffect, useState } from "react";
 import { scroller } from "react-scroll";
 
 const scrollToElement = (elementId) => {
@@ -33,7 +33,9 @@ const Layout = () => {
             <main id="main" style={{
                 minHeight: '100vh'
             }}>
-                <Outlet/>
+                <Suspense>
+                    <Outlet/>
+                </Suspense>
             </main>
             <Footer/>
         </>

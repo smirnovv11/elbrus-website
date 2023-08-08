@@ -20,14 +20,14 @@ const ShortInfoSection = () => {
                 <div>
                     <div className={styles.white_panel}>
                             <h2>Ознакомтесь со списком предоставляемых услуг</h2>
+                            
                             <p>Подробную информацию об услугах можно просмотреть на вкладке "Наши услуги"</p>
-                            <hr/>
                             <button className={styles.black_btn}>К услугам</button>
                     </div>
                     <div className={styles.white_panel}>
                             <h2>Оставьте вашу заявку на бесплатную консультацию!</h2>
+                            
                             <p>И мы обязательно свяжемся с вами</p>
-                            <hr/>
                             <button className={styles.order_btn}>Отправить заявку</button>
                         </div>
                 </div>

@@ -1,7 +1,7 @@
 .header_container {
     z-index: 10;
     background-color: rgb(15, 15, 15);
-    color: #ffe32e;
+    color: #fbcb00;
     display: flex;
     align-items: center;
     justify-content: space-between;

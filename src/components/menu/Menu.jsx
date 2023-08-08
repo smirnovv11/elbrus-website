@@ -2,8 +2,8 @@ import { NavLink } from 'react-router-dom'
 import styles from './Menu.module.css'
 import { useEffect, useMemo } from 'react';
 
-const MAIN_COLOR = '#ffe32e';
-const SUB_COLOR = '#ffe94d'
+const MAIN_COLOR = '#fbcb00';
+const SUB_COLOR = '#fbcb00'
 const GREY_COLOR = '#545454';
 const SUBGREY_COLOR = '#333333';
 

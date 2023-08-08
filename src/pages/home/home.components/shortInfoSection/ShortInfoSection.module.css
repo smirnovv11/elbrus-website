@@ -1,10 +1,10 @@
 .main_section {
-    background-color: #ffeb6a;
+    background-color: #ffe15a;
     padding: 45px 40px 105px 40px;
     position: relative;
     display: flex;
     align-items: flex-start;
-    gap: 8vh;
+    gap: 7vh;
 }
 
 .main_section img {
@@ -16,7 +16,7 @@
 }
 
 .colored_p {
-    color:#ffdd00;
+    color:#ffe15a;
     font-weight: bold;
 }
 
@@ -27,6 +27,7 @@
     padding: 15px 25px;
     min-height: 55vh;
     margin-left: 8vh;
+    border-radius: 5px;
 }
 
 .face_info_container h1 {
@@ -60,7 +61,7 @@
     width: 24vmax;
     color:black;
     background-color: #FFF;
-    border-radius: 15px;
+    border-radius: 5px;
     padding: 3vh 4vh;
     text-align: center;
     display: flex;
@@ -85,7 +86,7 @@
     margin-bottom: 0.7vh;
 }
 .white_panel button {
-    margin-top: 1.7vh;
+    margin-top: 2.9vh;
     width: 80%;
 }
 
@@ -94,7 +95,7 @@
     padding: 12px 25px;
     font-weight: bold;
     font-size: 15pt;
-    background-color: #ffeb6a;
+    background-color: #ffe15a;
     color: black;
     border: none;
     border-radius: 5px;

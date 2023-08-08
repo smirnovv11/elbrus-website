@@ -38,9 +38,10 @@
     text-align: center  ;
     background-color: #FFF;
     color: black;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 20px 10px;
-    width: 31vmax;
+    max-width: 40vmax;
+    width: 650px;
 }
 
 .panel hr {
@@ -60,7 +61,7 @@
     padding: 7px 35px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 2vh;
-    background-color: #ffeb6a;
+    background-color: #ffe15a;
     color: black;
     border: none;
     border-radius: 5px;
