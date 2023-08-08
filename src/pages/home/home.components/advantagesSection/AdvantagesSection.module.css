@@ -1,0 +1,66 @@
+.container {
+    height: 800px;
+    position: relative;
+}
+
+.title {
+    text-align: center;
+    font-size: 26pt;
+    text-transform: uppercase;
+    margin: 35px 10px 20px 10px;
+}
+
+.shape {
+    position: absolute;
+    width: 28vmax;
+    bottom: 0;
+}
+.shape1 {
+    width: 22vmax;
+    bottom: 10%;
+    left: 4%;
+    animation: shape1 15s infinite forwards;
+    pointer-events: none;
+}
+
+@keyframes shape1 {
+    50% {
+        transform: translate(0%, -22%) rotate(-24deg);
+    }
+}
+
+.shape2 {
+    animation: shape2 20s infinite forwards;
+}
+
+@keyframes shape2 {
+    50% {
+        transform: translate(15%, 5%) rotate(20deg);
+    }
+}
+
+.shape3 {
+    animation: shape3 16s 2s infinite forwards;
+}
+
+@keyframes shape3 {
+    50% {
+        transform: translate(6%, -6%) rotate(-20deg);
+    }
+}
+
+.content_container {
+    width: 73%;
+    display: flex;
+    float: right;
+}
+
+.list {
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+}
+
+.item {
+
+}

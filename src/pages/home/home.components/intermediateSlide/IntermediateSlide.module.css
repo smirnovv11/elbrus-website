@@ -1,0 +1,73 @@
+.container {
+    position: relative;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    background-image: url('/images/arsenal.jpg');
+    background-repeat: no-repeat;
+}
+
+.upperlayer {
+    position: absolute;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    animation: slowopac 5.5s infinite linear forwards;
+}
+
+@keyframes slowopac {
+    0% {
+        opacity: 0.35;
+    }
+    50% {
+        opacity: 0.55;
+    }
+    100% {
+        opacity: 0.35;
+    }
+}
+
+.panel {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center  ;
+    background-color: #FFF;
+    color: black;
+    border-radius: 10px;
+    padding: 20px 10px;
+    width: 31vmax;
+}
+
+.panel hr {
+    border: none;
+    height: 3px;
+    background-color: #ffdd00;
+    margin: 13px 0px 20px 0px;
+    width: 80%;
+}
+.panel p {
+    width: 80%;
+    font-size: 2vh;
+    margin-bottom: 20px;
+}
+.panel button {
+    cursor: pointer;
+    padding: 7px 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2vh;
+    background-color: #ffeb6a;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    border-bottom: 2px solid rgb(233, 233, 233);
+    transition: all 0.3s ease-in-out;
+}
+.panel button:hover {
+    background-color: #ffdd00;
+    border-bottom: 2px solid #ffdd00;
+}

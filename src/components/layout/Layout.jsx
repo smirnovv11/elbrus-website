@@ -6,7 +6,7 @@ import { scroller } from "react-scroll";
 
 const scrollToElement = (elementId) => {
     scroller.scrollTo(elementId, {
-      duration: 100,
+      duration: 120,
       delay: 0,
       smooth: 'easeInQuad',
     });
@@ -21,13 +21,15 @@ const Layout = () => {
 
         if (isFirstLoad) setFirstLoad(() => { return false })
         else {
-            scrollToElement('main')
+            scrollToElement('header')
         }
     }, [location])
 
     return (
         <>
-            <Header/>
+            <div id="header">
+                <Header/>
+            </div>
             <main id="main" style={{
                 minHeight: '100vh'
             }}>
