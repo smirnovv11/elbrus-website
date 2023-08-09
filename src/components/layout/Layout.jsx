@@ -33,7 +33,7 @@ const Layout = () => {
             <main id="main" style={{
                 minHeight: '100vh'
             }}>
-                <Suspense>
+                <Suspense fallback={<div>Page is loading...</div>}>
                     <Outlet/>
                 </Suspense>
             </main>

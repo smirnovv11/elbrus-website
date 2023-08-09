@@ -75,18 +75,19 @@
 }
 
 .item {
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(244, 244, 244);
     padding: 20px 30px;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
+    direction: ltr;
 }
 .item h2 {
     font-size: 20pt;
 }
 .item p {
     margin-top: 10px;
-    font-size: 14pt;
+    font-size: 13pt;
 }
 
 @media (width <= 1200px) {
