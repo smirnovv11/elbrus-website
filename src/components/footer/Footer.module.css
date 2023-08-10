@@ -37,8 +37,7 @@
 .title_container {
     display: flex;
     flex-direction: column;
-    align-self: flex-start;
-    margin-top: 17px;
+    align-self: center;
 }
 .title {
     font-size: 39pt;
@@ -90,10 +89,6 @@ hr {
     .logo {
         width: 120px;
         height: 120px;
-    }
-    .title_container {
-        align-self: center;
-        margin-top: 0;
     }
     .title {
         font-size: 30pt;
