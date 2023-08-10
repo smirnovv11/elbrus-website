@@ -1,10 +1,10 @@
 import { useMemo } from 'react'
 import styles from './Info.module.css'
 
-const INFORMATION = {
+export const INFORMATION = {
     mtc: '+7 911 ХХХ-ХХ-ХХ',
     tele2: '+7 911 ХХХ-ХХ-ХХ',
-    adress: 'ул. Пушкина',
+    adress: 'ул. Пушкина 25/50',
     email: 'elbrusinfo.mail.ru'
 }
 

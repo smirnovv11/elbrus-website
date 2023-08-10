@@ -1,5 +1,6 @@
 import Info from '../info/Info'
 import Menu from '../menu/Menu'
+import Socials from '../socials/Socials'
 import styles from './Footer.module.css'
 import { Link } from 'react-router-dom'
 
@@ -16,11 +17,7 @@ const Footer = () => {
                 </div>
                 <div className={styles.right}>
                     <div className={styles.soc_info}>
-                        <div className={styles.socials}>
-                            <a href='https://www.viber.com/ru/' target='_blank'><img src='/images/viber.png'/></a>
-                            <a href='https://www.whatsapp.com' target='_blank'><img src='/images/whatsapp.png'/></a>
-                            <a href='https://www.telegram.org' target='_blank'><img src='/images/telegram.png'/></a>
-                        </div>
+                        <Socials isAdaptive={true}/>
                         <Info isDetailed={true} isColored={false}/>
                     </div>
                     <Menu isColored={false}/>

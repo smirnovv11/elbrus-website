@@ -1,0 +1,26 @@
+.socials {
+    display: flex;
+    gap: 8px;
+    margin-left: 4px;
+}
+.socials_media {
+    flex-direction: row;
+    align-self: flex-start;
+    justify-content: center;
+}
+@media (width < 1150px) {
+    .socials_media {
+        flex-direction: column-reverse;
+    }
+}
+
+@media (width < 800px) {
+    .socials_media {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .socials_media {
+        flex-direction: row;
+    }
+}

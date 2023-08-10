@@ -1,0 +1,51 @@
+.container {
+    margin: 6vh;
+    margin-bottom: 0px;
+    margin-top: 6vmax;
+    display: flex;
+    flex-direction: column;
+}
+.title {
+    font-size: 50pt;
+    margin-bottom: 10px;
+}
+
+.container p {
+    width: 73%;
+    font-size: 17pt;
+    margin-bottom: 40px;
+}
+
+.list {
+    display: flex;
+    gap: 30px;
+}
+
+.item {
+    width: 220px;
+    background-color: rgb(0, 0, 0) ;
+    padding: 10px 20px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+.item h2 {
+    font-size: 40pt;
+    color: #FFF;
+    margin-bottom: 6px;
+}
+.item h3 {
+    font-weight: 500;
+    font-size: 12pt;
+    color: #FFF;
+    margin-bottom: 5px;
+}
+
+.container hr {
+    margin: 120px 0px;
+    margin-bottom: 70px;
+    background-color: #fbcb00;
+    height: 6px;
+    width: 80%;
+}
