@@ -53,13 +53,14 @@
 }
 .panel p {
     width: 80%;
-    font-size: 2.3vh;
+    font-size: 14pt;
     margin-bottom: 20px;
 }
 .panel button {
     cursor: pointer;
-    padding: 9px 37px;
-    font-size: 2.2vh;
+    padding: 10px 0px;
+    width: 45%;
+    font-size: 14pt;
     font-weight: 600;
     background-color: #ffe15a;
     color: black;
@@ -71,4 +72,13 @@
 .panel button:hover {
     background-color: #ffdd00;
     border-bottom: 2px solid #ffdd00;
+}
+
+@media (width <= 700px) {
+    .panel p {
+        font-size: 12pt;
+    }
+    .panel button {
+        font-size: 12pt;
+    }
 }

@@ -3,6 +3,7 @@
     margin-top: 0px;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 .title {
@@ -45,4 +46,72 @@
     background-color: rgb(210, 210, 210);
     width: 80%;
     margin-bottom: 15px;
+}
+
+@media (width <= 1200px) {
+    .title {
+        font-size: 35pt;
+    }
+    .map {
+        height: 450px;
+    }
+    .info h2 {
+        font-size: 20pt;
+    }
+    .info p, .info span, .info a {
+        font-size: 14pt;
+    }
+}
+@media (width <= 1000px) {
+    .title {
+        font-size: 30pt;
+        margin-bottom: 20px;
+    }
+    .map {
+        height: 350px;
+    }
+    .info h2 {
+        font-size: 17pt;
+    }
+    .info p, .info span, .info a {
+        font-size: 12pt;
+    }
+}
+@media (width <= 800px) {
+    .map {
+        height: 320px;
+    }
+}
+@media (width <= 650px) {
+    .title {
+        font-size: 25pt;
+        margin-bottom: 0px;
+    }
+    .contacts {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+    .map {
+        height: 500px;
+    }
+    .info h2 {
+        font-size: 20pt;
+    }
+    .info p, .info span, .info a {
+        font-size: 14pt;
+    }
+    .container {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+@media (width <= 500px) {
+    .map {
+        height: 300px;
+    }
+    .container {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 }
