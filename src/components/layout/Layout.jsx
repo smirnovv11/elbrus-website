@@ -3,6 +3,7 @@ import Header from "../header/Header"
 import Footer from "../footer/Footer"
 import { Suspense, useEffect, useState } from "react";
 import { scroller } from "react-scroll";
+import Loading from "../loading/Loading";
 
 const scrollToElement = (elementId) => {
     scroller.scrollTo(elementId, {
@@ -33,7 +34,7 @@ const Layout = () => {
             <main id="main" style={{
                 minHeight: '100vh'
             }}>
-                <Suspense fallback={<div>Page is loading...</div>}>
+                <Suspense fallback={<Loading/>}>
                     <Outlet/>
                 </Suspense>
             </main>
