@@ -53,4 +53,12 @@ a:link {
         margin: 5px 0px;
         align-items: center;
     }
+    .head_contacts p {
+        margin-right: 0;
+    }
+    .head_contacts hr {
+        align-self: center;
+        width: 90%;
+        margin-left: 0;
+    }
 }

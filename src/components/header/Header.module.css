@@ -16,13 +16,19 @@
     width: 120px;
     height: 120px;
     margin-right: 13px;
+    transition: 0.1s ease-in-out;
+}
+.logo:hover {
+    transform: scale(1.02);
 }
 
 .title {
     font-size: 37pt;
+    user-select: none;
 }
 .subtitle {
     font-size: 15pt;
+    user-select: none;
 }
 
 .left, .right {

@@ -1,6 +1,7 @@
 .head_controls {
     display: flex;
     border: 2px solid #fbcb00;
+    border-radius: 5px;
     align-self: center;
 }
 .head_controls a {
