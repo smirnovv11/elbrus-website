@@ -1,0 +1,56 @@
+.title {
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.form {
+    margin: 0px 50px;
+}
+
+.client_info {
+    display: flex;
+    gap: 20px;
+    font-size: 16pt;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.client_info div {
+    display: flex;
+    flex-direction: column;
+}
+.client_info div input {
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-top: 4px;
+    font-size: 14pt;
+    padding: 4px;
+}
+
+.service_customize {
+    display: flex;
+    font-size: 16pt;
+    font-weight: 600;
+    gap: 20px;
+}
+.service_customize div {
+    display: flex;
+    flex-direction: column;
+}
+
+.select {
+    margin-top: 4px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 14pt;
+    padding: 10px 25px;
+    text-align: center;
+}
+
+.radio_div {
+    display: flex;
+    flex-direction: row;
+}
+
+input[type='radio'] {
+    align-self: center;
+}

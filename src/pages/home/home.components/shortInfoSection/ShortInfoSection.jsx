@@ -1,4 +1,5 @@
 import styles from './ShortInfoSection.module.css'
+import { scrollToForm } from '../../../../components/applicationForm/ApplicationFrom';
 
 const ShortInfoSection = () => {
     return (
@@ -28,7 +29,7 @@ const ShortInfoSection = () => {
                             <h2>Оставьте вашу заявку на бесплатную консультацию!</h2>
                             
                             <p>И мы обязательно свяжемся с вами</p>
-                            <button className={styles.order_btn}>Отправить заявку</button>
+                            <button className={styles.order_btn} onClick={scrollToForm}>Отправить заявку</button>
                         </div>
                 </div>
                 <img src='/images/preview.png'/>

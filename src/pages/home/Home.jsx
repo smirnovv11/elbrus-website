@@ -1,4 +1,4 @@
-import styles from './Home.module.css'
+import ApplicationFrom from '../../components/applicationForm/ApplicationFrom'
 import AdvantagesSection from './home.components/advantagesSection/AdvantagesSection'
 import IntermediateSlide from './home.components/intermediateSlide/IntermediateSlide'
 import ShortInfoSection from './home.components/shortInfoSection/ShortInfoSection'
@@ -9,6 +9,7 @@ const Home = () => {
             <ShortInfoSection/>
             <IntermediateSlide/>
             <AdvantagesSection/>
+            <ApplicationFrom bgColor={'#ffe15a'}/>
         </>
     )
 }
