@@ -107,6 +107,8 @@
     border-bottom: 2px solid #ffdd00;
 }
 .black_btn {
+    margin-top: 2.9vh;
+    width: 70%;
     cursor: pointer;
     padding: 12px 25px;
     font-weight: bold;

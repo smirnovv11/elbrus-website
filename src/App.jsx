@@ -5,6 +5,7 @@ import { lazy } from 'react'
 const Home = lazy(() => import('./pages/home/Home'))
 const About = lazy(() => import('./pages/about/About'))
 const NoPage = lazy(() => import('./pages/nopage/NoPage'))
+const Services = lazy(() => import('./pages/services/Services'))
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path='/' element={<Layout/>}>
           <Route index element={<Home/>}/>
           <Route path='about' element={<About/>}/>
+          <Route path='services' element={<Services/>}/>
           <Route path='*' element={<NoPage/>}/>
         </Route>
       </Routes>

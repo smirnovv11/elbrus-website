@@ -1,5 +1,6 @@
 import styles from './ShortInfoSection.module.css'
 import { scrollToForm } from '../../../../components/applicationForm/ApplicationFrom';
+import { Link } from 'react-router-dom';
 
 const ShortInfoSection = () => {
     return (
@@ -23,7 +24,7 @@ const ShortInfoSection = () => {
                             <h2>Ознакомтесь со списком предоставляемых услуг</h2>
                             
                             <p>Подробную информацию об услугах можно просмотреть на вкладке "Наши услуги"</p>
-                            <button className={styles.black_btn}>К услугам</button>
+                            <Link className={styles.black_btn} to={'/services'}>К услугам</Link>
                     </div>
                     <div className={styles.white_panel}>
                             <h2>Оставьте вашу заявку на бесплатную консультацию!</h2>

@@ -1,38 +1,61 @@
+.container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 65px;
+    align-items: center;
+}
+
 .title {
     text-align: center;
-    margin: 20px 0px;
+    font-size: 35pt;
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.container hr {
+    background-color: #17171700;
+    height: 3px;
+    width: 500px;
+    margin-bottom: 70px;
+    margin-top: 13px;
 }
 
 .form {
     margin: 0px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .client_info {
     display: flex;
-    gap: 20px;
+    gap: 30px;
     font-size: 16pt;
     font-weight: 600;
     margin-bottom: 30px;
 }
-.client_info div {
+.client_info .line_div {
     display: flex;
     flex-direction: column;
-}
+}   
 .client_info div input {
     border-radius: 5px;
     border: 1px solid black;
     margin-top: 4px;
     font-size: 14pt;
     padding: 4px;
+    width: 250px;
 }
 
 .service_customize {
     display: flex;
     font-size: 16pt;
     font-weight: 600;
-    gap: 20px;
+    gap: 30px;
 }
-.service_customize div {
+.service_customize .line {
     display: flex;
     flex-direction: column;
 }
@@ -42,15 +65,47 @@
     border-radius: 5px;
     border: 1px solid black;
     font-size: 14pt;
-    padding: 10px 25px;
+    padding: 7px 30px;
     text-align: center;
 }
 
 .radio_div {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+}
+.radio_div div {
+    margin-bottom: 4px;
+}
+.radio_div div input {
+    margin-right: 3px;
 }
 
 input[type='radio'] {
     align-self: center;
+}
+
+.control_div {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16pt;
+    align-items: center;
+    gap: 50px;
+}
+
+.black_btn {
+    cursor: pointer;
+    padding: 10px 45px;
+    font-weight: bold;
+    font-size: 14pt;
+    color: #FFF;
+    background-color: rgb(15, 15, 15);
+    border: none;
+    border-radius: 5px;
+    border-bottom: 4px solid rgb(15, 15, 15);
+    transition: all 0.3s ease-in-out;
+}
+.black_btn:hover {
+    background-color: #242424;
+    border-bottom: 4px solid #232323;
 }
