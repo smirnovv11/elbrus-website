@@ -12,8 +12,8 @@
 }
 
 .container hr {
-    height: 6px;
-    background-color: #ffe15a;
+    height: 3px;
+    background-color: var(--main-color);
     width: 30%;
     margin-bottom: 20px;
 }

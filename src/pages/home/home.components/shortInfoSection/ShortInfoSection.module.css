@@ -1,5 +1,5 @@
 .main_section {
-    background-color: #ffe15a;
+    background-color: var(--sub-color);
     padding: 45px 40px 105px 40px;
     position: relative;
     display: flex;
@@ -95,7 +95,7 @@
     padding: 12px 25px;
     font-weight: bold;
     font-size: 15pt;
-    background-color: #ffe15a;
+    background-color: var(--sub-color);
     color: black;
     border: none;
     border-radius: 5px;
@@ -103,8 +103,8 @@
     transition: all 0.3s ease-in-out;
 }
 .order_btn:hover {
-    background-color: #ffdd00;
-    border-bottom: 2px solid #ffdd00;
+    background-color: var(--main-color);
+    border-bottom: 2px solid var(--main-color);
 }
 .black_btn {
     margin-top: 2.9vh;

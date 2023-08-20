@@ -4,7 +4,7 @@ import styles from './Services.module.css'
 const Services = () => {
     return (
         <div>
-            <ApplicationFrom bgColor={'#ffe15a'}/>
+            <ApplicationFrom bgColor={'var(--main-color)'}/>
         </div>
     )
 }

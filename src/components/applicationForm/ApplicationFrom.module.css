@@ -1,17 +1,21 @@
 .container {
-    padding: 20px;
+    padding: 50px;
     display: flex;
     flex-direction: column;
-    padding-bottom: 65px;
     align-items: center;
+}
+
+.panel {
+    background-color: #FFF;
+    padding: 50px 20px 25px 20px;
+    border-radius: 25px;
 }
 
 .title {
     text-align: center;
     font-size: 35pt;
     text-transform: uppercase;
-    margin-top: 15px;
-    margin-bottom: 0px;
+    margin-bottom: 15px;
 }
 
 .container hr {
@@ -85,17 +89,18 @@ input[type='radio'] {
 }
 
 .control_div {
-    margin-top: 35px;
+    margin-top: 65px;
     display: flex;
     justify-content: space-between;
     font-size: 16pt;
-    align-items: center;
+    align-items: flex-end;
     gap: 50px;
+    width: 100%;
 }
 
 .black_btn {
     cursor: pointer;
-    padding: 10px 45px;
+    padding: 10px 65px;
     font-weight: bold;
     font-size: 14pt;
     color: #FFF;

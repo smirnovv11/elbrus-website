@@ -46,7 +46,7 @@
 .container hr {
     margin: 120px 0px;
     margin-bottom: 70px;
-    background-color: #fbcb00;
+    background-color: var(--main-color);
     height: 6px;
     width: 80%;
 }

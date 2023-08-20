@@ -1,5 +1,11 @@
 @import url('./fonts/fonts.css');
 
+:root {
+  --main-color: #fbcb00;
+  --sub-color: #ffe15a;
+  --black-color: #0f0f0f;
+}
+
 * {
   margin: 0;
   scroll-behavior: smooth;

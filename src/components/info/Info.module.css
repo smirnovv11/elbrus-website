@@ -16,7 +16,7 @@
     width: 85%;
     border: none;
     height: 1px;
-    background-color: #fbcb00;
+    background-color: var(--main-color);
     display: flex;
     margin: 3px 0px 5px 1px;
 }
