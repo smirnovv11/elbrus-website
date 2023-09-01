@@ -40,7 +40,7 @@ const ApplicationFrom = ({bgColor}) => {
 
     return <div id="application-form" style={{backgroundColor: `${bgColor}`}} className={styles.container}>
         <div className={styles.panel}>
-            <h1 className={styles.title}>Оформление заявки заявки</h1>
+            <h1 className={styles.title}>Оформление заявки</h1>
             <hr></hr>
             <form className={styles.form}>
                 <div className={styles.client_info}>

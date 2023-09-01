@@ -9,7 +9,7 @@ const Home = () => {
             <ShortInfoSection/>
             <IntermediateSlide/>
             <AdvantagesSection/>
-            <ApplicationFrom bgColor={'var(--main-color)'}/>
+            <ApplicationFrom bgColor={'var(--sub-color)'}/>
         </>
     )
 }
