@@ -2,8 +2,10 @@ import ApplicationFrom from '../../components/applicationForm/ApplicationFrom'
 import styles from './Services.module.css'
 
 const Services = () => {
+
     return (
-        <div className={styles.container}>
+        <>
+            <div className={styles.container}>
             <div className={styles.title_container}>
                 <h1>Наши услуги</h1>
                 <hr className={styles.hr}></hr>
@@ -83,6 +85,7 @@ const Services = () => {
                 </div>
             <ApplicationFrom bgColor={'#ebebeb'}/>
         </div>
+        </>
     )
 }
 
