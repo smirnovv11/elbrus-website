@@ -60,3 +60,8 @@
         padding: 10px 15px;
     }
 }
+@media (width < 400px) {
+    .head_controls a {
+        font-size: 10pt;
+    }
+}

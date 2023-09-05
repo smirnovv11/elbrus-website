@@ -12,7 +12,7 @@ const Services = () => {
             </div>
             <div className={styles.cards}>
                 <div className={styles.card}>
-                    <h2>Услуга №1</h2>
+                    <h2>Охрана частного лица</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         Totam qui molestias provident vitae atque suscipit libero 
                         distinctio voluptas reiciendis expedita sequi, architecto 
