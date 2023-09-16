@@ -18,7 +18,6 @@ const ApplicationFrom = ({bgColor}) => {
     
     const handleInputChange = (e) => {
         const { name, value } = e.target;
-        console.log(value + ' ' + name)
         form.changeData({ ...form.data, [name]: value });
     };
     
