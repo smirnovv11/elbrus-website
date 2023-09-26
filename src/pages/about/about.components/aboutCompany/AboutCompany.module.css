@@ -51,6 +51,47 @@
     width: 80%;
 }
 
+.services_p {
+    font-size: 18pt;
+    margin-bottom: 15px;
+}
+.services_list {
+    font-size: 16pt;
+}
+.services_list li {
+    margin-bottom: 3px;
+}
+
+.employees {
+    align-self: center;
+    width: 80%;
+    margin-top: 60px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    background-color: rgb(245, 245, 245);
+}
+.subtitle {
+    text-align: center;
+}
+.cards {
+    margin: 50px 8%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    position: relative;
+}
+.card {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 16pt;
+}
+.card img {
+    padding: 15px;
+    border-radius: 10px;
+    background-color: black;
+}
+
 @media (width <= 1200px) {
     .title {
         font-size: 40pt;
@@ -64,6 +105,13 @@
     .item h3 {
         font-size: 11pt;
     }
+    .services_p {
+        font-size: 14pt;
+        margin-bottom: 10px;
+    }
+    .services_list {
+        font-size: 13pt;
+    }
 }
 @media (width <= 1000px) {
     .title {
@@ -75,6 +123,13 @@
     }
     .item h2 {
         font-size: 25pt;
+    }
+    .services_p {
+        font-size: 13pt;
+        margin-bottom: 10px;
+    }
+    .services_list {
+        font-size: 12pt;
     }
 }
 @media (width <= 650px) {
@@ -101,5 +156,22 @@
     .container hr {
         margin: 70px;
         margin-bottom: 50px;
+    }
+    .services_p {
+        font-size: 12pt;
+        margin-bottom: 10px;
+    }
+    .services_list {
+        font-size: 12pt;
+    }
+}
+@media (width <= 550px) {
+    .card img {
+        width: 30px;
+        padding: 11px;
+    }
+    .card {
+        font-size: 12pt;
+        width: 80%;
     }
 }
