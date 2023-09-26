@@ -23,7 +23,7 @@ const Footer = () => {
                     <Menu isColored={false}/>
                 </div>
             </div>
-            <p className={styles.footer_text}>[Эльбрус - это мagnam illo quasi, exercitationem quibusdam libero at laudantium eius, nihil atque beatae est asperiores soluta. Mollitia omnis neque consequatur ab odit, quia possimus repellat, est veritatis excepturi itaque iste aut autem tempora sed.]</p>
+            <p className={styles.footer_text}>[Эльбрус - это современная компания, специализирующаяся на обеспечении безопасности и защите вашего бизнеса, имущества и сотрудников. Эльбрус – это современная компания, специализирующаяся на обеспечении безопасности и защите вашего бизнеса, имущества и сотрудников. Миссия "Эльбрус" заключается в обеспечении надежной и эффективной защиты наших клиентов. Мы предлагаем широкий спектр услуг, адаптированных под потребности наших клиентов..]</p>
             <hr/>
             <p className={styles.bottom_p}>© 2023 ООО ЧОО "Эльбус"</p>
         </div>

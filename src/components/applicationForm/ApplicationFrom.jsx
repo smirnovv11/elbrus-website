@@ -70,14 +70,15 @@ const ApplicationFrom = ({bgColor}) => {
                         <label>Вид объекта:</label>
                         <select className={styles.select} type='select' name='type' required value={form.data.type} onChange={handleInputChange}>
                             <option>Частный объект</option>
-                            <option>Частный объектfsdfsdfddasdasdsa</option>
-                            <option>Частный объект</option>
-                            <option>Частный объект</option>
-                            <option>Частный объект</option>
-                            <option>Частный объект</option>
-                            <option>Частный объект</option>
-                            <option>Частный объект</option>
-                            <option>Частный объект</option>
+                            <option>АЗС</option>
+                            <option>Коттедж/Коттеджный поселок</option>
+                            <option>Личная охрана</option>
+                            <option>Дача/Дачный поселок</option>
+                            <option>Склад</option>
+                            <option>Стройка</option>
+                            <option>Магазин/ТЦ</option>
+                            <option>Мероприятие</option>
+                            <option>Офис/Офисное здание</option>
                         </select>
                     </div>
                     <div className={styles.radio_div}>
@@ -104,7 +105,6 @@ const ApplicationFrom = ({bgColor}) => {
                     </div>
                 </div>
                 <div className={styles.control_div}>
-                    <p>Расчетная стоимотсть от <span style={{textDecoration: 'underline', fontWeight: 'bold'}}>NUM</span> руб.</p>
                     <button className={styles.black_btn}>Отправить</button>
                 </div>
                 

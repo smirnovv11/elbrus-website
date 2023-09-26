@@ -12,7 +12,27 @@ const Services = () => {
             </div>
             <div className={styles.cards}>
                 <div className={styles.card}>
-                    <h2>Охрана частного лица</h2>
+                    <h2>Охрана объектов</h2>
+                    <p>Надежная охрана — одно из важнейших условий для успешного развития любого бизнеса, и это утверждение не требует подтверждения.
+                        Не следует рассчитывать на то, что преступники обойдут ваш бизнес стороной. Предвидьте все возможные риски заранее.
+                        Мы готовы предложить своим клиентам широкий спектр услуг по обеспечению безопасности различных предприятий от потенциальных угроз.</p>
+                </div>
+                <div className={styles.card}>
+                    <h2>Юридические услуги</h2>
+                    <p>Мы предоставляем разнообразные юридические услуги в Москве и МО с высококвалифицированными специалистами и государственным опытом.
+                         Мы специализируемся в разных областях права, предлагаем прозрачные условия в договоре.
+                         Наши юристы специализируются в налоговом, административном, уголовном, гражданском и трудовом праве. 
+                         Мы предоставляем решения опираясь на свой опыт.</p>
+                </div>
+                <div className={styles.card}>
+                    <h2>Сопровождение грузов</h2>
+                    <p>Мы предоставляем вооруженную и не вооруженную охрану, а также сопровождение для опасных грузов. 
+                        Мы оказываем эти услуги в Москве и МО, обеспечивая полную безопасность перевозимых ценностей.
+                        Увеличение объема товарооборота - приятный результат успешного развития компании. Однако, с ростом объема продаж возрастает
+                         необходимость в безопасной транспортировке товаров, ценных бумаг и другого имущества.</p>
+                </div>
+                <div className={styles.card}>
+                    <h2>Вооруженная охрана</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         Totam qui molestias provident vitae atque suscipit libero 
                         distinctio voluptas reiciendis expedita sequi, architecto 
@@ -22,64 +42,34 @@ const Services = () => {
                         mollitia! Incidunt!</p>
                 </div>
                 <div className={styles.card}>
-                    <h2>Услуга №2</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Totam qui molestias provident vitae atque suscipit libero 
-                        distinctio voluptas reiciendis expedita sequi, architecto 
-                        dolore aspernatur eaque excepturi ad impedit reprehenderit! 
-                        Vero in molestias vitae vel earum esse assumenda numquam, facere 
-                        doloribus pariatur modi alias praesentium eaque minima nam perspiciatis 
-                        mollitia! Incidunt!</p>
+                    <h2>Личная охрана</h2>
+                    <p>Личная охрана - это забота о безопасности, включая свою, своих сотрудников и имущества. 
+                        Она создается из штата профессиональных специалистов, готовых действовать в любых 
+                        форс-мажорных ситуациях и обеспечивать не только физическую безопасность клиента, 
+                        но и конфиденциальность информации, которая хранится конфиденциально.
+
+</p>
                 </div>
                 <div className={styles.card}>
-                    <h2>Услуга №3</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Totam qui molestias provident vitae atque suscipit libero 
-                        distinctio voluptas reiciendis expedita sequi, architecto 
-                        dolore aspernatur eaque excepturi ad impedit reprehenderit! 
-                        Vero in molestias vitae vel earum esse assumenda numquam, facere 
-                        doloribus pariatur modi alias praesentium eaque minima nam perspiciatis 
-                        mollitia! Incidunt!</p>
-                </div>
-                <div className={styles.card}>
-                    <h2>Услуга №4</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Totam qui molestias provident vitae atque suscipit libero 
-                        distinctio voluptas reiciendis expedita sequi, architecto 
-                        dolore aspernatur eaque excepturi ad impedit reprehenderit! 
-                        Vero in molestias vitae vel earum esse assumenda numquam, facere 
-                        doloribus pariatur modi alias praesentium eaque minima nam perspiciatis 
-                        mollitia! Incidunt!</p>
-                </div>
-                <div className={styles.card}>
-                    <h2>Услуга №5</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Totam qui molestias provident vitae atque suscipit libero 
-                        distinctio voluptas reiciendis expedita sequi, architecto 
-                        dolore aspernatur eaque excepturi ad impedit reprehenderit! 
-                        Vero in molestias vitae vel earum esse assumenda numquam, facere 
-                        doloribus pariatur modi alias praesentium eaque minima nam perspiciatis 
-                        mollitia! Incidunt!</p>
-                </div>
-                <div className={styles.card}>
-                    <h2>Услуга №6</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Totam qui molestias provident vitae atque suscipit libero 
-                        distinctio voluptas reiciendis expedita sequi, architecto 
-                        dolore aspernatur eaque excepturi ad impedit reprehenderit! 
-                        Vero in molestias vitae vel earum esse assumenda numquam, facere 
-                        doloribus pariatur modi alias praesentium eaque minima nam perspiciatis 
-                        mollitia! Incidunt!</p>
+                    <h2>Охрана массовых мероприятий</h2>
+                    <p>Мероприятия, такие как выступления музыкальных групп, спортивные соревнования, конференции и коктейльные вечеринки, 
+                        часто сопровождаются массовыми собраниями, которые представляют 
+                        риск для безопасности гостей и участников. Для этого нужно предоставлять услугу по обеспечению 
+                        общественного порядка на мероприятиях любого масштаба.</p>
                 </div>
             </div>
             <div className={styles.info}>
                     <div>
-                        <h2>Как осуществляется процесс оказа услуг: </h2>
+                        <h2>Как осуществляется процесс оказание услуги:</h2>
                         <ol>
-                            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime dolorum rerum alias magni earum unde et doloremque perspiciatis sint non!</li>
-                            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil neque vel numquam quas natus dolorum consequatur quasi ex. Reprehenderit ex facilis molestias ipsam eligendi sapiente corrupti quia repellat nam quidem?</li>
-                            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime dolorum rerum alias magni earum unde et doloremque perspiciatis sint non!</li>
-                            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil neque vel numquam quas natus dolorum consequatur quasi ex. Reprehenderit ex facilis molestias ipsam eligendi sapiente corrupti quia repellat nam quidem?</li>
+                            <li>Запрос клиента: Клиент обращается с запросом на нужные услуги.</li>
+                            <li>Консультация: Специалисты связываются с клиентом для обсуждения деталей и требований.</li>
+                            <li>Подготовка предложения: Разрабатываем индивидуальное предложение с условиями.</li>
+                            <li>Согласование и заключение договора: Заключаем договор, фиксируя условия сделки.</li>
+                            <li>Исполнение услуги: Начинаем выполнение услуги в сроки и с качеством.</li>
+                            <li>Контроль и обратная связь: Взаимодействие и обратная связь в процессе.</li>
+                            <li>Завершение услуги: Предоставление результатов и документации.</li>
+                            <li>Оценка и улучшение: Получаем обратную связь для улучшения услуг.</li>
                         </ol>
                     </div>
                 </div>

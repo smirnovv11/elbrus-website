@@ -7,12 +7,21 @@
     gap: 7vh;
 }
 
-.main_section img {
+/* .img_logo {
     position: absolute;
     pointer-events: none;
-    bottom: 0;
-    right: 0%;
-    width: 29vmax;
+    top: 0%;
+    left: 55%;
+    width: 55vmax;
+    opacity: 0.2;
+    z-index: 0;
+} */
+.img_man {
+    position: absolute;
+    pointer-events: none;
+    bottom: 0%;
+    right: 0;
+    width: 28vmax;
 }
 
 .colored_p {
@@ -68,6 +77,8 @@
     flex-direction: column;
     align-items: center;
     margin-bottom: 5vh;
+    position: relative;
+    z-index: 1;
 }
 .white_panel h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
