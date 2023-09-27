@@ -1,6 +1,7 @@
 import { useContext, createContext } from "react"
 import { useState, useRef } from "react"
 import emailjs from '@emailjs/browser';
+import { useAlert } from "../alert/AlertContext";
 
 const ApplicationFormContext = createContext()
 
@@ -12,6 +13,8 @@ const ApplicationFormProvider = ({children}) => {
 
     const form = useRef();
 
+    const alert = useAlert()
+
     const sendEmail = (e) => {
         e.preventDefault();
 
@@ -21,6 +24,7 @@ const ApplicationFormProvider = ({children}) => {
         }, (error) => {
             console.log(error.text);
         });
+        alert.sendAlert();
     };
 
     const [data, setData] = useState({

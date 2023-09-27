@@ -1,3 +1,4 @@
+import Alert from '../../components/alert/Alert'
 import ApplicationFrom from '../../components/applicationForm/ApplicationFrom'
 import styles from './Services.module.css'
 
@@ -74,6 +75,7 @@ const Services = () => {
                     </div>
                 </div>
             <ApplicationFrom bgColor={'#ebebeb'}/>
+            <Alert/>
         </div>
         </>
     )

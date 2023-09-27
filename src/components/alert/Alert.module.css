@@ -1,0 +1,32 @@
+.container {
+    position: fixed;
+    right: 2rem;
+    top: 2rem;
+    padding: 15px 20px;
+    border-radius: 13px;
+    color: #FFFF;
+    background-color: rgb(5, 162, 5);
+    z-index: 100;
+    opacity: 0.97;
+    max-width: 35%;
+    animation: alert-anime 4.2s forwards;
+}
+
+@keyframes alert-anime {
+    0% {
+        opacity: 0;
+    }
+    30%, 50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.container h1 {
+    font-size: 14pt;
+}
+.container p {
+    font-size: 12pt;
+}
