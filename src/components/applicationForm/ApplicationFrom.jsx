@@ -50,7 +50,7 @@ const ApplicationFrom = ({bgColor}) => {
         <div className={styles.panel}>
             <h1 className={styles.title}>Оформление заявки</h1>
             <hr></hr>
-            <form className={styles.form}>
+            <form className={styles.form} ref={form.form} onSubmit={form.sendEmail}>
                 <div className={styles.client_info}>
                     <div className={styles.line_div}>
                         <label>Имя:</label>
