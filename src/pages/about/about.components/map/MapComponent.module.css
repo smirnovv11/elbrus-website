@@ -1,0 +1,39 @@
+
+.map {
+    width: 100%;
+    height: 500px;
+    border: 0;
+}
+
+@media (width <= 1200px) {
+    .map {
+        height: 450px;
+    }
+}
+@media (width <= 1000px) {
+    .map {
+        height: 350px;
+    }
+}
+@media (width <= 930px) {
+    .map {
+        height: 320px;
+        
+    }
+}
+@media (width <= 100px) {
+    .map {
+        height: 320px;
+        width: 95%;
+    }
+}
+@media (width <= 650px) {
+    .map {
+        height: 500px;
+    }
+}
+@media (width <= 500px) {
+    .map {
+        height: 300px;
+    }
+}
