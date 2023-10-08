@@ -8,6 +8,16 @@
   </head>
   <body>
     <div id="root"></div>
+    <script>
+      const darkModeQuery = window.matchMedia('(prefers-color-scheme: dark)');
+      const faviconElement = document.querySelector('link[rel="icon"]');
+
+      if (darkModeQuery.matches) {
+        faviconElement.href = '/images/elbrus_white.ico';
+      } else {
+        faviconElement.href = '/images/elbrus.ico';
+      }
+  </script>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
