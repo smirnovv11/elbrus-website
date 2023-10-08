@@ -33,7 +33,6 @@ const ShortInfoSection = () => {
                             <button className={styles.order_btn} onClick={scrollToForm}>Отправить заявку</button>
                         </div>
                 </div>
-                {/* <img className={styles.img_logo} src='/images/logo_back.png'/> */}
                 <img className={styles.img_man} src='/images/preview.png'/>
             </section>
         </div>    

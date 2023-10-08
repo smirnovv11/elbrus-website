@@ -92,6 +92,26 @@
     background-color: black;
 }
 
+.button {
+    align-self: center;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px 40px;
+    margin-top: 28px;
+    font-size: 16pt;
+    font-weight: 600;
+    background-color: var(--sub-color);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    border-bottom: 2px solid rgb(233, 233, 233);
+    transition: all 0.3s ease-in-out;
+}
+.button:hover {
+    background-color: var(--main-color);
+    border-bottom: 2px solid var(--main-color);
+}
+
 @media (width <= 1200px) {
     .title {
         font-size: 40pt;

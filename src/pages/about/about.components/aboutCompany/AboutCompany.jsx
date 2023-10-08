@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import styles from './AboutCompany.module.css'
 
 const AboutCompany = () => {
@@ -43,16 +44,7 @@ const AboutCompany = () => {
                     </div>
                 </div>
             </div>
-            {/* <div className={styles.list}>
-                <div className={styles.item}>
-                    <h2>18<span style={{color: 'var(--main-color)'}}>+</span></h2>
-                    <h3>лет опыта работы</h3>
-                </div>
-                <div className={styles.item}>
-                    <h2>2000<span style={{color: 'var(--main-color)'}}>+</span></h2>
-                    <h3>довольных клиентов были обеспечены надежной защитой</h3>
-                </div>
-            </div> */}
+            <Link className={styles.button} to={'/employees'}>Стать членом команды</Link>
             <hr/>
         </div>
     )

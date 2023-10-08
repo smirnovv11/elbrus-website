@@ -1,15 +1,17 @@
 import styles from './IntermediateSlide.module.css'
+import { Link } from 'react-router-dom';
 
 const IntermediateSlide = () => {
     return (
         <div className={styles.container}>
             <div className={styles.upperlayer}/>
             <div className={styles.panel}>
-                <h2>[Информация о компании]</h2>
+                <h2>Трудоустройство в "Эльбрус"</h2>
                 <hr/>
-                <p>[Здесь можно предоставить какую-либо краткую и полезную
-                    информацию перед следующей секцией сайта]</p>
-                <button>[Кнопка]</button>
+                <p>Ищете место трудоустройства? Ознакомтесь с 
+                    нашей компанией, подавайте заявку и станьте членом команды Эльбрус!
+                </p>
+                <Link className={styles.button} to={'/employees'}>Стать членом команды</Link>
             </div>
         </div>
     )
