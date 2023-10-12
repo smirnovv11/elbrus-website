@@ -1,4 +1,6 @@
 import styles from './Employees.module.css'
+import EmplForm from './emplForm/EmplForm'
+import Alert from '../../components/alert/Alert'
 
 const Employees = () => {
     return (
@@ -32,6 +34,8 @@ const Employees = () => {
                     </div>
                 </div>
                 <p className={styles.optional_text}>Руководство "Эльбрус" ценит труд сотрудников и готовы помогать различными способами.</p>
+                <EmplForm/>
+                <Alert/>
             </div>
         </>
     )
