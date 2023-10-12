@@ -4,7 +4,7 @@ import styles from './Info.module.css'
 export const INFORMATION = {
     mtc: '+7 911 ХХХ-ХХ-ХХ',
     tele2: '+7 911 ХХХ-ХХ-ХХ',
-    adress: 'ул. Пушкина 25/50',
+    adress: 'Ткацкая улица, 17',
     email: 'elbrusinfo.mail.ru'
 }
 

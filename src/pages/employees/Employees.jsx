@@ -34,9 +34,9 @@ const Employees = () => {
                     </div>
                 </div>
                 <p className={styles.optional_text}>Руководство "Эльбрус" ценит труд сотрудников и готовы помогать различными способами.</p>
-                <EmplForm/>
-                <Alert/>
             </div>
+            <EmplForm/>
+            <Alert/>
         </>
     )
 }
