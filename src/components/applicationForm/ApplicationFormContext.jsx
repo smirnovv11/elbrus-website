@@ -18,7 +18,7 @@ const ApplicationFormProvider = ({children}) => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_k58u8e8', 'template_wum69gq', form.current, 'ywk6rl1MR_6xlqcJZ')
+        emailjs.sendForm('service_eqbemnn', 'template_18nx53b', form.current, '8VrACJdCdG9bli8F3')
         .then((result) => {
             console.log(result.text);
         }, (error) => {

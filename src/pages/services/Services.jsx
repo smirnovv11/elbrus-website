@@ -34,13 +34,10 @@ const Services = () => {
                 </div>
                 <div className={styles.card}>
                     <h2>Вооруженная охрана</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Totam qui molestias provident vitae atque suscipit libero 
-                        distinctio voluptas reiciendis expedita sequi, architecto 
-                        dolore aspernatur eaque excepturi ad impedit reprehenderit! 
-                        Vero in molestias vitae vel earum esse assumenda numquam, facere 
-                        doloribus pariatur modi alias praesentium eaque minima nam perspiciatis 
-                        mollitia! Incidunt!</p>
+                    <p>Наша компания, предлагает высококвалифицированную вооруженную охрану для обеспечения безопасности вашего бизнеса.
+                        Команда состоит из профессионалов с богатым опытом и отличной физической подготовкой. 
+                        Мы гарантируем индивидуальный подход, круглосуточную поддержку и использование передовых технологий для обеспечения вашей безопасности в любое время и в любом месте.
+                    </p>
                 </div>
                 <div className={styles.card}>
                     <h2>Личная охрана</h2>
