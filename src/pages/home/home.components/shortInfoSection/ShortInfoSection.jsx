@@ -19,7 +19,7 @@ const ShortInfoSection = () => {
                             <li>Мы стремимся создать безопасную среду, где бизнесы могут процветать, а сотрудники и клиенты чувствовать уверенность и спокойствие.</li>
                         </ul>
                     </div>
-                <div>
+                <div className={styles.white_panel_div}>
                     <div className={styles.white_panel}>
                             <h2>Ознакомтесь со списком предоставляемых услуг</h2>
                             
