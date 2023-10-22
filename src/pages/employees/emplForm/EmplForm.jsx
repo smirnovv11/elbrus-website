@@ -11,7 +11,7 @@ const EmplForm = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_eqbemnn', 'template_fo137dr', form.current, '8VrACJdCdG9bli8F3')
+        emailjs.sendForm('service_k58u8e8', 'template_c1sgyse', form.current, 'ywk6rl1MR_6xlqcJZ')
         .then((result) => {
             alert.sendAlert()
             form.current.reset()
@@ -58,12 +58,18 @@ const EmplForm = () => {
                     </div>
                         <label>Email: </label>
                         <input type="email" name="email" required/>
+                        <label>Возраст: </label>
+                        <input type="number" name="age" min={18} max={80}/>
                     </div>
                     <div className={styles.exp_div}>
                         <label>Опыт работы: </label>
-                        <input type="number" name="exp" min={0} max={90}/>
-                        <label className={styles.exp_title}>Наличие удостоверения охранника: </label>
-                        <input type="checkbox" name="certificate"/>
+                        <input type="number" name="exp" min={0} max={70}/>
+                        <label>Сфера работы: </label>
+                        <input type="text" name="area"/>
+                    </div>
+                    <div>
+                        <label htmlFor='certificate' className={styles.exp_title}>Наличие удостоверения охранника: </label>
+                        <input type="checkbox" id='certificate' name="certificate"/>
                     </div>
                     <input type="submit" value="Send" />
                 </form>
