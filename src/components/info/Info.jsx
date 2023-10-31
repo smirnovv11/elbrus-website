@@ -2,10 +2,10 @@ import { useMemo } from 'react'
 import styles from './Info.module.css'
 
 export const INFORMATION = {
-    mtc: '+7 911 ХХХ-ХХ-ХХ',
-    tele2: '+7 911 ХХХ-ХХ-ХХ',
+    mtc: '+7 (916) 024-47-16',
+    tele2: '+7 (910) 764-73-49',
     adress: 'Ткацкая улица, 17',
-    email: 'elbrusinfo.mail.ru'
+    email: 'elbrusinfo@internet.ru'
 }
 
 const fillPColor = (isColored) => { 
@@ -25,8 +25,8 @@ const Info = ({isDetailed, isColored}) => {
 
     return (
         <div className={styles.head_contacts}>
-            <p>МТС: <a href={`tel:${INFORMATION.mtc}`}><span style={fillPColor(isColored)}>{INFORMATION.mtc}</span></a></p>
-            <p>Tele2: <a href={`tel:${INFORMATION.tele2}`}><span style={fillPColor(isColored)}>{INFORMATION.tele2}</span></a></p>
+            <p>МТС 1: <a href={`tel:${INFORMATION.mtc}`}><span style={fillPColor(isColored)}>{INFORMATION.mtc}</span></a></p>
+            <p>MTC 2: <a href={`tel:${INFORMATION.tele2}`}><span style={fillPColor(isColored)}>{INFORMATION.tele2}</span></a></p>
             <hr style={fillHrColor(isColored)}/> 
             <p>Адрес: <span style={fillPColor(isColored)}>{INFORMATION.adress}</span></p>
             {isDetailed ? (
