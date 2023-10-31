@@ -30,7 +30,7 @@ const Employees = () => {
                     </div>
                     <div className={styles.card}>
                         <img src='/images/moscow.png'></img>
-                        Охрана объектов по Москве и Московской области;
+                        Охрана объектов по Москве, МО и другим областям РФ;
                     </div>
                 </div>
                 <p className={styles.optional_text}>Руководство "Эльбрус" ценит труд сотрудников и готовы помогать различными способами.</p>
