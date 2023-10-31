@@ -14,8 +14,8 @@ const Contacts = () => {
                         <p>{INFORMATION.adress}</p>
                         <hr/>
                         <h2>Телефоны для связи: </h2>
-                        <p>МТС 1: <a href={`tel:${INFORMATION.mtc}`}><span style={{textDecoration: 'underline'}}>{INFORMATION.mtc}</span></a></p>
-                        <p>MTC 2: <a href={`tel:${INFORMATION.tele2}`}><span style={{textDecoration: 'underline'}}>{INFORMATION.tele2}</span></a></p>
+                        <p>МТС: <a href={`tel:${INFORMATION.mtc}`}><span style={{textDecoration: 'underline'}}>{INFORMATION.mtc}</span></a></p>
+                        <p>MTC: <a href={`tel:${INFORMATION.tele2}`}><span style={{textDecoration: 'underline'}}>{INFORMATION.tele2}</span></a></p>
                         <hr/>
                         <h2>Эл. почта: </h2>
                         <p><a href={`mailto:${INFORMATION.email}`}>{INFORMATION.email}</a></p>

@@ -25,8 +25,8 @@ const Info = ({isDetailed, isColored}) => {
 
     return (
         <div className={styles.head_contacts}>
-            <p>МТС 1: <a href={`tel:${INFORMATION.mtc}`}><span style={fillPColor(isColored)}>{INFORMATION.mtc}</span></a></p>
-            <p>MTC 2: <a href={`tel:${INFORMATION.tele2}`}><span style={fillPColor(isColored)}>{INFORMATION.tele2}</span></a></p>
+            <p>МТС: <a href={`tel:${INFORMATION.mtc}`}><span style={fillPColor(isColored)}>{INFORMATION.mtc}</span></a></p>
+            <p>MTC: <a href={`tel:${INFORMATION.tele2}`}><span style={fillPColor(isColored)}>{INFORMATION.tele2}</span></a></p>
             <hr style={fillHrColor(isColored)}/> 
             <p>Адрес: <span style={fillPColor(isColored)}>{INFORMATION.adress}</span></p>
             {isDetailed ? (
