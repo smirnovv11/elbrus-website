@@ -27,7 +27,7 @@
 }
 
 .logo {
-    background-image: url('images/logo-footer.png');
+    background-image: url('/images/logo-footer.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

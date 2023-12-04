@@ -9,9 +9,9 @@ const Alert = () => {
         <div style={{
             display: alert.isAlert
         }}>
-            <div className={styles.container}>
-                <h1>Отпралено!</h1>
-                <p>Заявка успешно отправлена.</p>
+            <div className={styles.container} style={{backgroundColor: alert.isError ? '#cc0000' : 'rgb(5, 162, 5)'}}>
+                <h1>{alert.isError ? 'Ошибка!' : 'Отпралено!'}</h1>
+                <p>{alert.isError ? 'Поле \'Телефон\' не заполнено': 'Заявка успешно отправлена.'}</p>
             </div>
         </div>
     )

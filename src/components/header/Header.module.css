@@ -9,7 +9,7 @@
 }
 
 .logo {
-    background-image: url('images/logo-head.png');
+    background-image: url('/images/logo-head.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

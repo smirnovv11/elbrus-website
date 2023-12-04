@@ -2,6 +2,7 @@ import { scroller } from 'react-scroll';
 import styles from './ApplicationFrom.module.css'
 import { useState } from 'react';
 import ApplicationFormProvider, { useForm } from './ApplicationFormContext';
+import { useAlert } from '../alert/AlertContext';
 
 export const scrollToForm = () => {
     scroller.scrollTo('application-form', {
@@ -23,13 +24,18 @@ const ApplicationFrom = ({bgColor}) => {
     
     const handlePhoneChange = (event) => {
         const input = event.target.value.replace(/\D/g, '');
+        if (input.length == 4) {
+            event.target.setSelectionRange(7, 7)
+        }
         if (input.length <= 11) {
             form.changeData({...form.data, phone: formatPhoneNumber(input)});
         }
     };
 
     const formatPhoneNumber = (value) => {
-        const matches = value.match(/^(\d{0,1})(\d{0,3})(\d{0,3})(\d{0,2})(\d{0,2})$/);
+        const matches = value.match(/^(\d{0,1})(\d{0,3})?(\d{0,3})?(\d{0,2})?(\d{0,2})?$/);
+        console.log(matches)
+        console.log(value)
         if (matches) {
           const formatted = [
             '+7',

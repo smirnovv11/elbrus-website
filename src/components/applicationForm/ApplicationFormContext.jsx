@@ -18,12 +18,19 @@ const ApplicationFormProvider = ({children}) => {
     const sendEmail = (e) => {
         e.preventDefault();
 
+        if (data.phone.length != 18) {
+            alert.error(true)
+            alert.sendAlert()
+            return
+        }
+
         emailjs.sendForm('service_eqbemnn', 'template_18nx53b', form.current, '8VrACJdCdG9bli8F3')
         .then((result) => {
             console.log(result.text);
         }, (error) => {
             console.log(error.text);
         });
+        alert.error(false)
         alert.sendAlert();
     };
 
