@@ -5,7 +5,7 @@ export const INFORMATION = {
     mtc: '+7 (916) 024-47-16',
     tele2: '+7 (910) 764-73-49',
     adress: 'Ткацкая улица, 17',
-    email: 'elbrusinfo@internet.ru'
+    email: 'security.elbrus@yandex.ru'
 }
 
 const fillPColor = (isColored) => { 
