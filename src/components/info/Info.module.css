@@ -4,7 +4,7 @@
     margin-right: 2rem;
     margin-left: 25px;
 }
-.head_contacts p {
+.head_contacts > p {
     font-size: 15pt;
     color: #FFF;
     margin-right: 35px;
@@ -26,6 +26,14 @@ a {
 a:link {
     text-decoration: none;
 }
+.address {
+    color: #FFF;
+    width: 220px;
+}
+.address p {
+    font-size: 11pt;
+}
+
 
 @media (width < 1300px) {
     .head_contacts {
@@ -42,6 +50,9 @@ a:link {
 @media (width < 800px) {
     .head_contacts p {
         font-size: 12pt;
+    }
+    .address p {
+        font-size: 11pt;
     }
 }
 
@@ -60,5 +71,16 @@ a:link {
         align-self: center;
         width: 90%;
         margin-left: 0;
+    }
+    .head_contacts {
+        align-items: center;
+        text-align: center;
+    }
+    .address {
+        width: 300px;
+        font-size: 10pt;
+    }
+    .address p {
+        font-size: 11pt;
     }
 }

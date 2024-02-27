@@ -34,15 +34,19 @@
 .uptitle {
     user-select: none;
     font-size: 10pt;
-    font-weight: normal;    
+    font-weight: normal;
 }
 
 .left {
-    height: 150px;
+    height: 130px;
 }
 .left, .right {
     display: flex;
     align-items: center;
+}
+.title_div {
+    display: flex;
+    flex-direction: column;
 }
 
 @media (width < 1300px) {
@@ -84,6 +88,9 @@
     }
     .head_contacts p {
         font-size: 10pt;
+    }
+    .title_div {
+        align-items: center;
     }
 }
 
