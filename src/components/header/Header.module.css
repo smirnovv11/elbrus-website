@@ -23,14 +23,23 @@
 }
 
 .title {
-    font-size: 37pt;
+    font-size: 46pt;
     user-select: none;
 }
 .subtitle {
-    font-size: 15pt;
     user-select: none;
+    font-size: 13pt;
+    font-weight: normal;
+}
+.uptitle {
+    user-select: none;
+    font-size: 10pt;
+    font-weight: normal;    
 }
 
+.left {
+    height: 150px;
+}
 .left, .right {
     display: flex;
     align-items: center;
@@ -68,10 +77,10 @@
         height: 100px;
     }
     .title {
-        font-size: 34pt;
+        font-size: 44pt;
     }
     .subtitle {
-        font-size: 13pt;
+        font-size: 12pt;
     }
     .head_contacts p {
         font-size: 10pt;
@@ -87,7 +96,10 @@
         height: 80px;
     }
     .title {
-        font-size: 27pt;
+        font-size: 37pt;
+    }
+    .uptitle {
+        font-size: 8pt;
     }
     .subtitle {
         font-size: 11pt;

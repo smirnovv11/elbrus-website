@@ -10,8 +10,9 @@ const Header = () => {
             <div className={styles.left}>
                 <NavLink to='/'><div className={styles.logo}></div></NavLink>
                 <div>
+                    <h3 className={styles.uptitle}>Общество с ограниченной ответственностью</h3>
                     <h1 className={styles.title}>ЭЛЬБРУС</h1>
-                    <h2 className={styles.subtitle}>Охранная организация</h2>
+                    <h2 className={styles.subtitle}>Частная охранная организация</h2>
                 </div>
             </div>
             <div className={styles.right}>
