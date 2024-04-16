@@ -15,7 +15,7 @@
 .contacts {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 60px;
+    gap: 20px;
     margin: 35px 3vmax;
     justify-items: center;
 }
@@ -26,7 +26,7 @@
 }
 
 .info {
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -44,7 +44,7 @@
 .info hr {
     align-self: flex-start;
     background-color: rgb(210, 210, 210);
-    width: 80%;
+    width: 100%;
     margin-bottom: 15px;
 }
 
@@ -56,7 +56,7 @@
         font-size: 20pt;
     }
     .info p, .info span, .info a {
-        font-size: 14pt;
+        font-size: 12pt;
     }
 }
 @media (width <= 1000px) {
@@ -68,7 +68,7 @@
         font-size: 17pt;
     }
     .info p, .info span, .info a {
-        font-size: 12pt;
+        font-size: 11pt;
     }
 }
 @media (width <= 650px) {

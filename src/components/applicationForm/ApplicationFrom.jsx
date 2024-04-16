@@ -87,7 +87,7 @@ const ApplicationFrom = ({bgColor}) => {
                             <option>Офис/Офисное здание</option>
                         </select>
                     </div>
-                    <div className={styles.radio_div}>
+                    {/* <div className={styles.radio_div}>
                         <label>Режим охраны:</label>
                         <div>
                             <input type='radio' value='12 часов' checked={form.data.time === '12 часов'} onChange={handleInputChange} name='time' id='time1' required/>
@@ -108,7 +108,7 @@ const ApplicationFrom = ({bgColor}) => {
                             <input type='radio' value='Вахта' checked={form.data.schedule === 'Вахта'} onChange={handleInputChange} name='schedule' id='schedule2' required/>
                             <label style={{fontWeight: 'normal', textDecoration: 'underline'}} htmlFor="schedule2">Вахта</label>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 <div className={styles.control_div}>
                     <button className={styles.black_btn}>Отправить</button>

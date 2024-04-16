@@ -11,7 +11,7 @@ const Contacts = () => {
                 <MapComponent/>
                 <div className={styles.info}>
                         <h2>Адрес: </h2>
-                        <p>{INFORMATION.adress}</p>
+                        <p>{INFORMATION.fulladress}</p>
                         <hr/>
                         <h2>Телефоны для связи: </h2>
                         <p>МТС: <a href={`tel:${INFORMATION.mtc}`}><span style={{textDecoration: 'underline'}}>{INFORMATION.mtc}</span></a></p>

@@ -24,6 +24,9 @@ const ApplicationFormProvider = ({children}) => {
             return
         }
 
+        data.schedule = '--'
+        data.time = '--'
+
         emailjs.sendForm('service_eqbemnn', 'template_18nx53b', form.current, '8VrACJdCdG9bli8F3')
         .then((result) => {
             console.log(result.text);
