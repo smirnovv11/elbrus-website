@@ -43,7 +43,10 @@ const ApplicationFormProvider = ({children}) => {
         phone: '',
         type: '0',
         time: '',
-        schedule: ''
+        schedule: '',
+        object: '',
+        comp: '',
+        pos: ''
     });
 
     const changeData = newData => {
@@ -58,7 +61,10 @@ const ApplicationFormProvider = ({children}) => {
                 phone: '',
                 type: '0',
                 time: '',
-                schedule: ''
+                schedule: '',
+                object: '',
+                comp: '',
+                pos: ''
             }
         })
     }

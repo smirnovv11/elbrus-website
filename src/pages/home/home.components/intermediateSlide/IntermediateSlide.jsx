@@ -6,7 +6,7 @@ const IntermediateSlide = () => {
         <div className={styles.container}>
             <div className={styles.upperlayer}/>
             <div className={styles.panel}>
-                <h2>Трудоустройство в "Эльбрус"</h2>
+                <h2>Трудоустройство в «Эльбрус»</h2>
                 <hr/>
                 <p>Вы ответственный специалист? Мы рады видеть Вас в нашей КОМАНДЕ!
                 </p>

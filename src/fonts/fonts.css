@@ -8,6 +8,11 @@
     src: url('./Roboto//RobotoCondensed-Regular.ttf');
     font-weight: normal;
   }
+  @font-face {
+    font-family: 'mainFontReg';
+    src: url('./Roboto//RobotoCondensed-Regular.ttf');
+    font-weight: normal;
+  }
 @font-face {
     font-family: 'mainFont';
     src: url('./Roboto//RobotoCondensed-Light.ttf');

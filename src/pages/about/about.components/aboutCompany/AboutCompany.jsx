@@ -20,28 +20,28 @@ const AboutCompany = () => {
                 <div className={styles.cards}>
                     <div className={styles.card}>
                         <img src='/images/license.png'></img>
-                        Лицензированные и специально обученые
+                        Прошли специальное обучение
                     </div>
                     <div className={styles.card}>
                         <img src='/images/exp.png'></img>
-                        Знают свои обязанности и имели опыт на подобных работах
+                        Обладают опытом и действуют в соответствии с должностными инструкциями
                     </div>
                     <div className={styles.card}>
                         <img src='/images/suit.png'></img>
-                        В форменном обмундировании
+                        Форма одежды и экипировка подбирается с учётом требований Заказчика 
                     </div>
                     <div className={styles.card}>
                         <img src='/images/guard.png'></img>
-                        Адекватны, сдержаны и стрессоустойчивы
+                        Проходят психологическое тестирование для определения профессиональной пригодности
                     </div>
                     <div className={styles.card}>
                         <img src='/images/strong.png'></img>
-                        Обладают крепким телосложением
+                        Обладают навыками применения специальных средств и огнестрельного оружия
                     </div>
-                    <div className={styles.card}>
+                    {/* <div className={styles.card}>
                         <img src='/images/human.png'></img>
                         Презентабельно выглядят
-                    </div>
+                    </div> */}
                 </div>
             </div>
             <Link className={styles.button} to={'/employees'}>Стать членом команды</Link>

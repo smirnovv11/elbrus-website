@@ -41,10 +41,18 @@
     user-select: none;
 }
 .title {
-    font-size: 39pt;
+    font-size: 46pt;
+    user-select: none;
 }
 .subtitle {
-    font-size: 16pt;
+    user-select: none;
+    font-size: 13pt;
+    font-weight: normal;
+}
+.uptitle {
+    user-select: none;
+    font-size: 10pt;
+    font-weight: normal;
 }
 
 .soc_info {
@@ -95,7 +103,7 @@ hr {
         font-size: 30pt;
     }
     .subtitle {
-        font-size: 13pt;
+        font-size: 11pt;
     }
     .socials {
         flex-direction: column-reverse;
@@ -109,11 +117,20 @@ hr {
     .right {
         margin-right: 1rem;
     }
+    .subtitle {
+        font-size: 12pt;
+    }
+    .uptitle {
+        font-size: 8pt;
+    }
 }
 
 @media (width < 800px) {
     .top_container {
         flex-direction: column;
+    }
+    .title {
+        font-size: 44pt;
     }
     .left {
         align-self: center;
@@ -133,5 +150,16 @@ hr {
     }
     .socials {
         flex-direction: row;
+    }
+}
+@media (width < 500px) {
+    .title {
+        font-size: 40pt;
+    }
+    .subtitle {
+        font-size: 12pt;
+    }
+    .uptitle {
+        font-size: 8pt;
     }
 }
