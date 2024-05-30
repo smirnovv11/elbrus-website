@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+    margin: 0vh 16vh;
+    margin-bottom: 6vh;
+}
+
+.container > h2 {
+    text-align: center;
+    font-size: 32pt;
+    margin: 0;
+    padding: 0;
+}
+
+.carousel {
+    max-width: 100%;
+}
+
+.slide {
+    display: flex !important;
+    justify-content: center;
+    padding: 50px 0px;
+    gap: 40px;
+}
+
+.videos {
+    display: flex !important;
+    justify-content: center;
+    padding: 50px 0px;
+    gap: 40px;
+}
+
+.slide img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid silver;
+}

@@ -6,7 +6,8 @@ import MapComponent from '../map/MapComponent'
 const Contacts = () => {
     return (
         <div className={styles.container}>
-            <h1 className={styles.title}>НАШИ КОНТАКТЫ</h1>
+            <hr className={styles.hr}/>
+            <h1 className={styles.title}>Наши контакты</h1>
             <div className={styles.contacts}>
                 <MapComponent/>
                 <div className={styles.info}>

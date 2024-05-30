@@ -48,6 +48,14 @@
     margin-bottom: 15px;
 }
 
+.hr {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    background-color: var(--main-color);
+    height: 6px;
+    width: 80%;
+}
+
 @media (width <= 1200px) {
     .title {
         font-size: 35pt;
