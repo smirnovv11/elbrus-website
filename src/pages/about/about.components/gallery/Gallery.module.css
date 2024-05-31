@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     max-width: 100%;
-    margin: 0vh 16vh;
+    margin: 0vh 10%;
     margin-bottom: 6vh;
 }
 
@@ -21,19 +21,24 @@
 .slide {
     display: flex !important;
     justify-content: center;
-    padding: 50px 0px;
-    gap: 40px;
-}
-
-.videos {
-    display: flex !important;
-    justify-content: center;
-    padding: 50px 0px;
-    gap: 40px;
+    padding: 20px 0px 40px 0px;
+    gap: 20px;
 }
 
 .slide img {
     max-width: 100%;
-    height: auto;
+    max-height: 500px;
     border: 1px solid silver;
+}
+
+.videos {
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+@media (width <= 1000px) {
+    .container > h2 {
+        font-size: 28pt;
+    }
 }
