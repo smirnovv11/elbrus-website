@@ -4,7 +4,7 @@ import styles from './Info.module.css'
 export const INFORMATION = {
     mtc: '+7 (916) 024-47-16',
     tele2: '+7 (910) 764-73-49',
-    adress: 'г. Москва, ул. Ткацкая 17/2, оф. 3/2',
+    adress: 'г. Москва, ул. Ткацкая 17/2, оф. 3/2 105318',
     fulladress: '105318, город Москва, вн.тер.г. муниципальный округ Соколиная Гора, ул. Ткацкая, д. 17, стр. 2, помещение 3/2',
     email: 'security.elbrus@yandex.ru'
 }

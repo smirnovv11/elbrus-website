@@ -71,7 +71,7 @@ const EmplForm = () => {
                         <label htmlFor='certificate' className={styles.exp_title}>Наличие удостоверения охранника: </label>
                         <input type="checkbox" id='certificate' name="certificate"/>
                     </div>
-                    <input type="submit" value="Send" />
+                    <input type="submit" value="Отправить" />
                 </form>
             </div>
         </div>

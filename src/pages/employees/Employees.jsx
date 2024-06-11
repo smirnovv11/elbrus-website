@@ -6,11 +6,10 @@ const Employees = () => {
     return (
         <>
             <div className={styles.container}>
-                <h1>Станьте членом команды</h1>
                 <div className={styles.cards}>
                     <div className={styles.card}>
                         <img src='/images/group.png'></img>
-                        Сплоченный и поддерживающий коллектив;
+                        Сплоченный коллектив;
                     </div>
                     <div className={styles.card}>
                         <img src='/images/shirt.png'></img>
@@ -22,18 +21,21 @@ const Employees = () => {
                     </div>
                     <div className={styles.card}>
                         <img src='/images/star.png'></img>
-                        Дополнительные и премиальные выплаты за добросовествый труд;
+                        Премиальные выплаты и компенсационные выплаты;
                     </div>
                     <div className={styles.card}>
-                        <img src='/images/office.png'></img>
-                        Различные охраняемые объекты (предприятия, офисы и др.);
+                    <img src='/images/cutlery.png'></img>
+                        Питание;
+                    </div>
+                    <div className={styles.card}>
+                        <img src='/images/briefcase.png'></img>
+                        Курсы повышения квалификации;
                     </div>
                     <div className={styles.card}>
                         <img src='/images/moscow.png'></img>
-                        Охрана объектов по Москве, МО и другим областям РФ;
+                        Оказания охранных услуг на всей территории Российской Федерации.
                     </div>
                 </div>
-                <p className={styles.optional_text}>Руководство «Эльбрус» ценит труд сотрудников и готовы помогать различными способами.</p>
             </div>
             <EmplForm/>
             <Alert/>
