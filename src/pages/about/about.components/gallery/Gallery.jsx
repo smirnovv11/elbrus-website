@@ -4,9 +4,7 @@ import styles from './Gallery.module.css'
 
 const licenses = [
     '/images/gallery/license1.jpg',
-    '/images/gallery/license1.jpg',
-    '/images/gallery/license1.jpg',
-    '/images/gallery/license1.jpg',
+    '/images/gallery/license2.jpg',
 ]
 
 const photos = [
@@ -20,6 +18,15 @@ const photos = [
     '/images/photos/12.jpg.webp',
     '/images/photos/12.jpg.webp',
     '/images/photos/12.jpg.webp',
+]
+
+const reviews = [
+    '/images/Reviews/Благ1.jpg',
+    '/images/Reviews/Благ2.png',
+    '/images/Reviews/Благ3.png',
+    '/images/Reviews/Благ4.png',
+    '/images/Reviews/Благ5.jpg',
+    '/images/Reviews/Благ6.jpg',
 ]
 
 const links = [
@@ -84,7 +91,7 @@ const Gallery = () => {
                     ))}
                 </CarouselWrapper>
             </div>
-            <div className={styles.container}>
+            {/* <div className={styles.container}>
                 <h2>Фотогалерея</h2>
                 <CarouselWrapper autoplay autoplaySpeed={4000} className={styles.carousel}>
                     {chunkArray(photos, chunkPhotos).map((group) => (
@@ -97,15 +104,17 @@ const Gallery = () => {
                         </div>
                     ))}
                 </CarouselWrapper>
-            </div>
+            </div> */}
             <div className={styles.container}>
-                <h2 >СМИ о ЧОО «Эльбрус»</h2>
-                <CarouselWrapper autoplay autoplaySpeed={3500} className={styles.carousel}>
-                    {chunkArray(links, chunkLinks).map((group) => (
+                <h2>Слова благодарности наших Заказчиков</h2>
+                <CarouselWrapper autoplay autoplaySpeed={4000} className={styles.carousel}>
+                    {chunkArray(reviews, chunkLinense).map((group) => (
                         <div className={styles.slide}>
-                            {group.map(l => (
-                                <iframe width="560" height="315" src={l} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <Image.PreviewGroup preview={{}}>
+                            {group.map(p => (
+                                <Image src={p}/>
                             ))}
+                            </Image.PreviewGroup>
                         </div>
                     ))}
                 </CarouselWrapper>
