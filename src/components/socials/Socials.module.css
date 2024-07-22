@@ -8,9 +8,17 @@
     align-self: flex-start;
     justify-content: center;
 }
+
+.img {
+    width: 45px;
+}
+
 @media (width < 1150px) {
     .socials_media {
         flex-direction: column-reverse;
+    }
+    .img {
+        width: 35px;
     }
 }
 
@@ -19,6 +27,8 @@
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
+        width: 100%;
+        margin-top: 5px;
     }
     .socials_media {
         flex-direction: row;

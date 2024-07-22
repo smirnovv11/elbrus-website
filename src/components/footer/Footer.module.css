@@ -67,9 +67,6 @@
     gap: 8px;
     margin-left: 4px;
 }
-img {
-    width: 45px;
-}
 
 .bottom_p {
     text-align: center;
@@ -108,9 +105,6 @@ hr {
     .socials {
         flex-direction: column-reverse;
     }
-    img {
-        width: 35px;
-    }
     .left {
         margin-left: 1rem;
     }
@@ -145,7 +139,7 @@ hr {
         align-items: center;
     }
     .soc_info {
-        flex-direction: row-reverse;
+        flex-direction: column-reverse;
         margin: 5px 0px;
     }
     .socials {
@@ -154,7 +148,7 @@ hr {
 }
 @media (width < 500px) {
     .title {
-        font-size: 40pt;
+        font-size: 30pt;
     }
     .subtitle {
         font-size: 12pt;
